@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 const app = express();
 
-const apiUrl = 'http://177.86.172.152/:3040/SOFTWORKMOBILE/Imagens';
+const apiUrl = 'http://177.86.172.152:3040/SOFTWORKMOBILE/Imagens';
 
 // endpoint para listar os nomes das imagens
 app.get('/', async (req, res) => {
